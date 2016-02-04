@@ -1,0 +1,21 @@
+#!/usr/bin/env perl
+
+use 5.010;
+use strict;
+use warnings;
+
+use File::Slurper qw(read_text);
+
+binmode STDOUT, ":utf8";
+
+my @w;
+my %mem;
+
+for my $file (<../devdata/*.html>) {
+    my $ct = read_text($file);
+    while ($ct =~ m!<div class="ctCyChengyu"><a[^>]+>(\w+)</a>!g) {
+        push @w, $1 unless $mem{$1}++;
+    }
+}
+
+say for sort @w;
