@@ -3,6 +3,8 @@ package WordList::Phrase::ZH::Proverb::ChineseTools;
 # DATE
 # VERSION
 
+use utf8;
+
 use WordList;
 our @ISA = qw(WordList);
 
