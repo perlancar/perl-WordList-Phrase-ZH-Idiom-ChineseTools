@@ -11,7 +11,7 @@ our @ISA = qw(WordList);
 # STATS
 
 1;
-# ABSTRACT: Chinese idioms (chengyu) from chinese-tools.com
+# ABSTRACT: Chinese proverbs (chengyu) from chinese-tools.com
 
 =head1 SEE ALSO
 
