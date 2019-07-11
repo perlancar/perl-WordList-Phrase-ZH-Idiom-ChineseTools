@@ -1,16 +1,16 @@
-0.03    2016-02-10 (PERLANCAR)
+0.03    2016-02-10  Released-By: PERLANCAR
 
         - Rename module/dist from WordList-Phrase-ZH-Proverb-ChineseTools to
           WordList-Phrase-ZH-Idiom-ChineseTools.
 
 
-0.02    2016-02-10 (PERLANCAR)
+0.02    2016-02-10  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Fix Abstract.
 
 
-0.01    2016-02-04 (PERLANCAR)
+0.01    2016-02-04  Released-By: PERLANCAR
 
         - First release.
